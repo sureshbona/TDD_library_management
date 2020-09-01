@@ -1,0 +1,7 @@
+# ignore
+node_modules/
+.nyc_output/
+coverage/*
+
+# allow
+!coverage/index.html

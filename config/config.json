@@ -1,0 +1,20 @@
+{
+  "development": {
+    "config_id": "development",
+    "app_name": "tdd_library_management",
+    "node_port": 3000,
+    "database": "mongodb://suresh:library_123@ds133256.mlab.com:33256/tdd_library_management"
+  },
+  "testing": {
+    "config_id": "testing",
+    "app_name": "tdd_library_management",
+    "node_port": 5000,
+    "database": "mongodb://suresh:library_123@ds133256.mlab.com:33256/tdd_library_management"
+  },
+  "production": {
+    "config_id": "production",
+    "app_name": "tdd_library_management",
+    "node_port": 8080,
+    "database": "mongodb://suresh:library_123@ds133256.mlab.com:33256/tdd_library_management"
+  }
+}
